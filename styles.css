@@ -31,8 +31,7 @@ p {
 
 div {
   margin: 0 auto;
-  padding: 1em;
-  border: 5px solid #000
+  border: 5px solid #000;
 }
 
 .flex-container {
@@ -75,18 +74,19 @@ div {
   width: 200px;
 }
 
-#layer-one p {
-  font-size: 1px;
-}
-
 #layer-one {
-  opacity: 1;
-  transition: opacity 1s easy-ease;
+  opacity: 100%;
+  transition: transform 1s;
+  font-family: 'La Belle Aurore', cursive;
+  font-size: 1px;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 2rem;
 }
 
 .blink {
-  opacity: 0;
-  transition: opacity 1s;
+  opacity: 0%;
+  transform: opacity;
 }
 
 .block-2 {
