@@ -110,7 +110,7 @@ layerTwo.addEventListener("click", changeLayerTwo);
 
 
 //random fortune
-var fortunes = [
+const fortunes = [
 "You will reach the height of success in whatever you do.",
 "Everything will now come your way.",
 "A cheerful letter or message is on its way to you.",
@@ -123,6 +123,6 @@ var fortunes = [
 "You will enjoy good health, you will be surrounded by luxury."
 ];
 
-var fortune_spot = document.getElementById("fortune-text");
-var rand_int = Math.floor(Math.random () * 10);
+const fortune_spot = document.getElementById("fortune-text");
+let rand_int = Math.floor(Math.random () * 10);
 fortune_spot.innerHTML = fortunes[rand_int];
