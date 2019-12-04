@@ -139,9 +139,10 @@ div {
 }
 
 .fortune p {
-  font-size: 4rem;
+  font-size: 5rem;
   padding: 29px 16px;
   line-height: 5rem;
+  color: black;
 }
 
 
