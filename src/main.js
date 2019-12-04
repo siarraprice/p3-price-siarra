@@ -123,10 +123,6 @@ var fortunes = [
 "You will enjoy good health, you will be surrounded by luxury."
 ];
 
-layerTwo.addEventListener("click",
-  function () {
-    var fortune_spot = document.getElementsByClassName("fortune-text");
-    var rand_int = Math.floor(Math.random () * 10);
-    fortune_spot.innerHTML = fortunes[rand_int];
-  }, false
-);
+var fortune_spot = document.getElementById("fortune-text");
+var rand_int = Math.floor(Math.random () * 10);
+fortune_spot.innerHTML = fortunes[rand_int];
