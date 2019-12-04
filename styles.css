@@ -1,0 +1,142 @@
+/* COLORS
+Pink: #ED018D
+Blue: #0A31AB
+Green: #02A651
+Orange: #FF7E00
+
+*/
+
+html {
+  background: url(images/crumpled-paper.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+h1 {
+  font-family: 'La Belle Aurore', cursive;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  font-size: 2.5rem;
+  padding-top: 6rem;
+}
+
+h2 {
+  font-family: 'Playfair Display', serif;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+p {
+  font-family: 'La Belle Aurore', cursive;
+  font-size: 6rem;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+
+div {
+  margin: 0 auto;
+  padding: 1em;
+  border: 5px solid #000
+}
+
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  max-width: 484px;
+  margin: 0 auto;
+}
+
+.block, .block-2 {
+  margin: auto;
+}
+
+#green {
+  text-align: center;
+  background: #02A651;
+  color: #02A651;
+  height: 200px;
+  width: 200px;
+}
+
+#blue {
+  background: #0A31AB;
+  color: #0A31AB;
+  height: 200px;
+  width: 200px;
+}
+
+#pink {
+  background: #ED018D;
+  color: #ED018D;
+  height: 200px;
+  width: 200px;
+}
+
+#orange  {
+  background: #FF7E00;
+  color: #FF7E00;
+  height: 200px;
+  width: 200px;
+}
+
+#layer-one p {
+  font-size: 1px;
+}
+
+#layer-one {
+  transition: background-color 1s;
+}
+
+.blink {
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.block-2 {
+  height: 200px;
+  width: 200px;
+}
+
+#greentext {
+  color: #02A651;
+  background: white;
+  border: 5px solid #02A651
+}
+
+#bluetext {
+  color: #0A31AB;
+  background: white;
+  border: 5px solid #0A31AB
+}
+
+#pinktext {
+  color: #ED018D;
+  background: white;
+  border: 5px solid #ED018D
+}
+
+#orangetext  {
+  color: #FF7E00;
+  background: white;
+  border: 5px solid #FF7E00
+}
+
+.fortune {
+  height: 400px;
+  width: 400px;
+  background: white;
+}
+
+.fortune p {
+  font-size: 4rem;
+  padding: 29px 16px;
+  line-height: 5rem;
+}
+
+
+.hide1, .hide2 {
+  display: none;
+}
