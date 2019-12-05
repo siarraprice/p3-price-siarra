@@ -37,7 +37,7 @@ div {
 .flex-container {
   display: flex;
   flex-flow: row wrap;
-  max-width: 484px;
+  max-width: 420px;
   margin: 0 auto;
 }
 
